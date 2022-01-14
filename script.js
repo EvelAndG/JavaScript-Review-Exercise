@@ -21,8 +21,15 @@ cities.push(answer5);
 console.log(cities);
 
 document.write("<table border='1px black'>");
+document.write("<th>" + " Order" + "</th>");
+document.write("<th>" + "Doomed Cities" + "</th>");
+
 for (var i = 0; i < cities.length; i++) {
+
+	
+
 	document.write("<tr>");
+	document.write("<td>"+ (i+1) + "</td>");
 	document.write("<td>"+ cities[i] + "</td>");
 	document.write("</tr>");
 }
